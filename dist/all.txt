@@ -1,3 +1,11 @@
+! Title: Software Alternatives Blocklist for Google
+! Expires: 1 day
+! Description: Filters to block and remove automatically generated software comparison websites from search engines.
+! Homepage: https://github.com/Adikso/software-alternatives-adblock
+!
+! GitHub issues: https://github.com/Adikso/software-alternatives-adblock/issues
+! GitHub pull requests: https://github.com/Adikso/software-alternatives-adblock/pulls
+
 google.*##.g:has(a[href*="alternativeto.net"])
 google.*##a[href*="alternativeto.net"]:upward(1)
 google.*##.g:has(a[href*="g2.com"])
