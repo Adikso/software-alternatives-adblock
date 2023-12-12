@@ -125,3 +125,8 @@ google.*##.g:has(a[href^="https://www.gartner.com/"][href*="/alternatives"])
 google.*##a[href^="https://www.gartner.com/"][href*="/alternatives"]:upward(1)
 google.*##.g:has(a[href^="https://www.gartner.com/"][href*="/compare/"])
 google.*##a[href^="https://www.gartner.com/"][href*="/compare/"]:upward(1)
+
+google.*##.g:has(a[href^="https://alternativeoo.com/"])
+google.*##.g:has(a[href^="https://stackreaction.com/"])
+google.*##.g:has(a[href^="https://www.softwareadvice.ie/"])
+google.*##.g:has(a[href^="https://doakio.com/"])
